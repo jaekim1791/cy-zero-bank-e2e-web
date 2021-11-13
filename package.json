@@ -11,11 +11,9 @@
 	},
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
+	"devDependencies": {
+		"prettier": "^2.4.1",
 		"chai-colors": "^1.0.1",
 		"cypress": "^8.7.0"
-	},
-	"devDependencies": {
-		"prettier": "^2.4.1"
 	}
 }
