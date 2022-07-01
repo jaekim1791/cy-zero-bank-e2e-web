@@ -1,4 +1,4 @@
-// Add new payee in Pay Bills page
+// Test to add new payee in Pay Bills page
 
 /*
 Custom commands: 
@@ -7,7 +7,7 @@ Custom commands:
 		logOut
 */
 
-// urls located in cypress.env.json
+// All urls located in cypress.env.json
 
 describe("ADD NEW PAYEE", () => {
 	Cypress.Cookies.debug(true, { verbose: false });

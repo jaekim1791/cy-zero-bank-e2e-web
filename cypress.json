@@ -1,7 +1,0 @@
-{
-	"baseUrl": "http://zero.webappsecurity.com",
-	"watchForFileChanges": false,
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
-	"video": false
-}

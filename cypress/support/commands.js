@@ -2,9 +2,9 @@
 Cypress.Commands.add("baseUrl", () => {
 	cy.visit("/");
 
-	cy.readFile("cypress.json").then((url) => {
-		const baseUrl = url.baseUrl;
-		cy.url().should("include", baseUrl);
+	cy.readFile("cypress.env.json").then((homeUrl) => {
+		const url = homeUrl.url.home;
+		cy.url().should("include", url);
 	});
 
 	cy.get("#homeMenu").contains("Home");

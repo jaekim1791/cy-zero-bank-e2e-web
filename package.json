@@ -12,8 +12,8 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"prettier": "^2.4.1",
 		"chai-colors": "^1.0.1",
-		"cypress": "^8.7.0"
+		"cypress": "^10.2.0",
+		"prettier": "^2.7.1"
 	}
 }
