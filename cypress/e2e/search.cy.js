@@ -1,4 +1,4 @@
-// Search box and result
+// Verify user is able to search and see results.
 
 /*
 Custom commands: 
@@ -18,5 +18,8 @@ describe("SEARCH", () => {
 
 	it("show search results page", () => {
 		cy.get("h2").contains("Search Results");
+		cy.get(".top_offset").contains(
+			"No results were found for the query: some text"
+		);
 	});
 });

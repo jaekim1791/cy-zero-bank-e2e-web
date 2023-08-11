@@ -1,4 +1,4 @@
-// Valid login and logout
+// Verify if user is able to login and logout
 
 /*
 Custom commands: 
@@ -7,7 +7,7 @@ Custom commands:
 		logOut
 */
 
-// urls located in cypress.env.json
+// All urls located in cypress.env.json
 
 describe("VALID LOGIN", () => {
 	it("load home page", () => {

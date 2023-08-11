@@ -1,4 +1,4 @@
-// Window alert display
+// Verify fill in all fields Window alert display.
 
 /*
 Custom commands: 
@@ -7,16 +7,9 @@ Custom commands:
 		logOut
 */
 
-// urls located in cypress.env.json
+// All urls located in cypress.env.json
 
 describe("WINDOW ALERT", () => {
-	Cypress.Cookies.debug(true, { verbose: false });
-
-	beforeEach(() => {
-		// Site deletes cookie after signed in
-		Cypress.Cookies.preserveOnce("JSESSIONID");
-	});
-
 	it("load home page", () => {
 		cy.baseUrl();
 	});

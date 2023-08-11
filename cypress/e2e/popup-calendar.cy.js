@@ -1,4 +1,4 @@
-// Popup calendar date selection
+// Veify if user is able to select a date in popup calendar in Pay Bills tab, under Pay Saved Payee tab.
 
 /*
 Custom commands: 
@@ -7,16 +7,9 @@ Custom commands:
 		logOut
 */
 
-// urls located in cypress.env.json
+// All urls located in cypress.env.json
 
 describe("POPUP CALENDAR", () => {
-	Cypress.Cookies.debug(true, { verbose: false });
-
-	beforeEach(() => {
-		// Site deletes cookie after signed in
-		Cypress.Cookies.preserveOnce("JSESSIONID");
-	});
-
 	it("load home page", () => {
 		cy.baseUrl();
 	});

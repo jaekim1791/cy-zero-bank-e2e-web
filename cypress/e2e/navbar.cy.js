@@ -1,4 +1,4 @@
-// Navbar navigation and links
+// Verify Navbar navigation and links
 
 /*
 Custom commands: 
@@ -10,7 +10,7 @@ Required plugins:
 	"chai-colors" plugin required to convert HEX to RGB
 */
 
-// urls located in cypress.env.json
+// All urls located in cypress.env.json
 
 const chaiColors = require("chai-colors");
 chai.use(chaiColors);

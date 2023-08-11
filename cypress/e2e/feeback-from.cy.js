@@ -1,9 +1,11 @@
-// Feedback Form and confirmation message
+// Verify if user is able to send feedback message and receive confirmation message after clicking Send Message button.
 
 /*
 Custom commands: 
 		baseUrl
 */
+
+// All urls located in cypress.env.json
 
 describe("FEEDBACK FORM", () => {
 	it("load home page", () => {

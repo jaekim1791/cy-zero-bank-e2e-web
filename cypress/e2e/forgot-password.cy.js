@@ -1,4 +1,4 @@
-// Forgot Password submission and confirmaton message
+// Verify user is able to send Forgot Password submission and get confirmaton message.
 
 /*
 Custom commands: 

@@ -12,6 +12,8 @@ module.exports = defineConfig({
 		setupNodeEvents(on, config) {
 			return require("./cypress/plugins/index.js")(on, config);
 		},
-		baseUrl: "http://zero.webappsecurity.com",
+		testIsolation: false,
+		baseUrl: "http://zero.webappsecurity.com/",
+		experimentalRunAllSpecs: true,
 	},
 });

@@ -1,4 +1,4 @@
-// Invalid login
+// Verify Invalid login message appears.
 
 /*
 Custom commands: 
@@ -7,7 +7,7 @@ Custom commands:
 		logOut
 */
 
-// urls located in cypress.env.json
+// All urls located in cypress.env.json
 
 describe("INVALID LOGIN", () => {
 	it("load home page", () => {
